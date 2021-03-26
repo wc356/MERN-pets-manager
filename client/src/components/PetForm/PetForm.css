@@ -1,0 +1,28 @@
+.petform-container {
+  display: flex;
+  border: 3px solid #000;
+}
+
+.left,
+.right {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.petform-container label {
+  margin-bottom: 0.5rem;
+}
+
+.petform-container button {
+  display: inline-block;
+  background: dodgerblue;
+  color: white;
+}
+
+.input-container {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}

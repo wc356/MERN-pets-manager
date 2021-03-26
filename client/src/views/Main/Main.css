@@ -1,0 +1,29 @@
+table {
+  border: 3px solid #000;
+  border-collapse: collapse;
+  min-width: 50%;
+}
+
+th {
+  background: lightgray;
+  border-right: 2px solid #000;
+}
+
+tr button {
+  background: 0;
+  border: 0;
+  color: blue;
+  text-decoration: underline;
+}
+
+th,
+td {
+  padding: 0.5rem;
+}
+td {
+  border-right: 2px solid #000;
+}
+
+tr:nth-child(odd) {
+  background: #eee;
+}

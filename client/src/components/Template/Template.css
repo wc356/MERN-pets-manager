@@ -1,0 +1,18 @@
+.template-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.template-header button {
+  display: inline-block;
+  background: none;
+  border: none;
+  color: blue;
+  text-decoration: underline;
+}
+
+.template p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}

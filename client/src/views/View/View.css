@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+}
+
+.row .bold {
+  margin-right: 3rem;
+  font-weight: 600;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.view__btn-container button {
+  background: red;
+  padding: 1rem;
+  color: #fff;
+  border: 0;
+  font-weight: 600;
+}
